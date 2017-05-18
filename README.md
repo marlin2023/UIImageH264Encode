@@ -23,8 +23,8 @@ UIImage convert to CVPixelBufferRef ,then be encoded by VideoToolBox api
 	
 	--> 这里说明下，使用 kCVPixelFormatType_420YpCbCr8BiPlanarVideoRange 作为CVPixelBufferRef 的format的话，uv存储要交错存储，对应ffmpeg中avframe理解的话就是二维的，不像Encode01中是三维的类似yuv420p存储。
 	
-- 参考
-	https://github.com/manishganvir/iOS-h264Hw-Toolbox
-	libyuv
+参考
+	- https://github.com/manishganvir/iOS-h264Hw-Toolbox
+	- libyuv
 	
 	
